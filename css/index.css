@@ -214,6 +214,8 @@ header h1 {
 .logo {
   width: 20%;
 }
+/* Instead of setting a width directly on the image, I would wrap it in a container and set the width on that so that the image doesn't get warped */
+
 .navbar a:hover {
   background: #ddd;
   color: black;
@@ -371,6 +373,7 @@ footer h3 {
     border-bottom: solid 1px lightgrey;
     text-align: center;
   }
+  /* To prevent the borders on the links from overlapping, you could set a bottom border for all of them, and set a top border for just the first child */
 
   .btn {
     margin-top: 50px;
